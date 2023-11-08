@@ -64,7 +64,7 @@ function Deliver(symbol, amount)
             <p v-if="props.ship.nav.status == 'IN_TRANSIT'">Desintation: {{ props.ship.nav.route.destination.symbol }} Arrival Time: {{ props.ship.nav.route.arrival }}</p>
         </div>
         <div class="icon-container">
-            <img class="animated-icon" v-if="props.ship.nav.status == 'IN_TRANSIT'" src="../../assets/rocket.svg">
+            <img class="animated-icon" v-if="props.ship.nav.status == 'IN_TRANSIT'" src="/assets/rocket.svg">
 
         </div>
         <div class="cargo">
