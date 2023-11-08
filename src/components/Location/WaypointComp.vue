@@ -21,8 +21,8 @@ function GoToWaypoint() {
     <div class="waypoint">
         <p>{{ props.id }}</p>
 
-        <button type="button" @click="GoToSystem"><img   src="../../assets/solarsystem.svg"></button>
-        <button type="button" @click="GoToWaypoint"><img src="../../assets/planet.svg"></button>
+        <button type="button" @click="GoToSystem"><img   src="/assets/solarsystem.svg"></button>
+        <button type="button" @click="GoToWaypoint"><img src="/assets/planet.svg"></button>
     </div>
 </template>
 
