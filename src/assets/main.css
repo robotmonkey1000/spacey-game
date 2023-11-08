@@ -1,0 +1,60 @@
+:root {
+  --primary: #fc6d45;
+  --secondary: #fee9b4;
+  --accent: #e20343;
+  --text-color: #01242d;
+}
+
+body {
+  background-color: #f5fdff;
+  color: #01242d;
+}
+
+.errorMessage {
+  color: black;
+}
+
+canvas {
+  border-radius: 15px;
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  padding: 3px;
+  margin: 2px;
+  background-color: var(--primary);
+  border-radius: 10px;
+  border: solid var(--secondary);
+}
+
+button:hover {
+  background-color: var(--secondary);
+}
+
+.error {
+  text-align: center;
+  color:red;
+}
+.sucess {
+  text-align: center;
+  color:green;
+}
+
+.row {
+  display:flex;
+  flex-direction: row;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 3px;
+  margin: 2px;
+  border-radius: 10px;
+  background-color: white;
+  border: solid var(--secondary);
+}
