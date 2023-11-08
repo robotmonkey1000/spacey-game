@@ -1,14 +1,10 @@
-# space-traders-demo
+# Spacey Game!
 
-This template should help get you started developing with Vue 3 in Vite.
+A [Space Traders](https://spacetraders.io/) front end built using [VueJS](https://vuejs.org/) and [Axios](https://www.npmjs.com/package/axios).
 
-## Recommended IDE Setup
+## Check out a demo!
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+[Demo](https://spacey-game.robotmonkey.studio)
 
 ## Project Setup
 
