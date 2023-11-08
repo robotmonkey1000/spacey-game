@@ -41,10 +41,10 @@ if(token.value != null) GetAgentInfo();
     <CheckLogin></CheckLogin>
     <h1>Agent Info</h1>
     <div v-if="agentInfo" class="agentDiv">
-        <Stat src="/src/assets/user.svg" :value=agentInfo.symbol></Stat>
-        <Stat src="/src/assets/dollar.svg" :value=agentInfo.credits></Stat>
-        <Stat src="/src/assets/home.svg" :value=agentInfo.headquarters></Stat>
-        <Stat src="/src/assets/faction.svg" :value=agentInfo.startingFaction></Stat>
+        <Stat src="../assets/user.svg" :value=agentInfo.symbol></Stat>
+        <Stat src="../assets/dollar.svg" :value=agentInfo.credits></Stat>
+        <Stat src="../assets/home.svg" :value=agentInfo.headquarters></Stat>
+        <Stat src="../assets/faction.svg" :value=agentInfo.startingFaction></Stat>
     </div>
 
 
